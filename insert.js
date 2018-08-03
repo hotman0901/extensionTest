@@ -11,7 +11,7 @@ var keyframes = `@keyframes spin
     }
     50%
     {
-        transform: translateY(-50%);
+        transform: translateY(-500%);
     }
     75%
     {
@@ -26,12 +26,11 @@ var keyframes = `@keyframes spin
 s.innerHTML = keyframes;
 document.getElementsByTagName('head')[0].appendChild(s);
 
-var imgUrl = chrome.extension.getURL('images/get_started128.png');
+var imgUrl = chrome.extension.getURL('images/jump.png');
 
 var elem = document.createElement('img');
 elem.setAttribute('src', imgUrl);
 
-elem.setAttribute("style", "z-index: 99; width: 50x; height: 50px; position: fixed; bottom: 0; left: 25%; animation: spin .2s linear infinite;");
+elem.setAttribute("style", "z-index: 99; width: 50x; height: 50px; position: fixed; bottom: 0; left: 25%; animation: spin .7s linear infinite;");
 document.body.appendChild(elem);
-
 

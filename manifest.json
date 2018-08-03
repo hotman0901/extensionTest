@@ -30,6 +30,7 @@
         "128": "images/get_started128.png"
     },
     "web_accessible_resources": [
-        "images/get_started128.png"
+        "images/get_started128.png",
+        "images/jump.png"
     ]
 }

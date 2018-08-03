@@ -26,9 +26,10 @@ var keyframes = `@keyframes spin
 s.innerHTML = keyframes;
 document.getElementsByTagName('head')[0].appendChild(s);
 
+var imgUrl = chrome.extension.getURL('images/get_started128.png');
 
 var elem = document.createElement('img');
-elem.setAttribute('src', 'http://bpic.588ku.com/element_pic/00/84/54/3456e7b9c33b862.jpg');
+elem.setAttribute('src', imgUrl);
 
 elem.setAttribute("style", "z-index: 99; width: 50x; height: 50px; position: fixed; bottom: 0; left: 25%; animation: spin .2s linear infinite;");
 document.body.appendChild(elem);

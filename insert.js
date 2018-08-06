@@ -31,6 +31,7 @@ var imgUrl = chrome.extension.getURL('images/jump.png');
 var elem = document.createElement('img');
 elem.setAttribute('src', imgUrl);
 
-elem.setAttribute("style", "z-index: 99; width: 50x; height: 50px; position: fixed; bottom: 0; left: 25%; animation: spin .7s linear infinite;");
+// 利用content_scripts去吃
+// elem.setAttribute("style", "z-index: 99; width: 50x; height: 50px; position: fixed; bottom: 0; left: 25%; animation: spin .7s linear infinite;");
 document.body.appendChild(elem);
 

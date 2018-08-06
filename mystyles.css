@@ -1,0 +1,9 @@
+img {
+    z-index: 99;
+    width: 50x;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    animation: spin 0.7s linear infinite;
+}
